@@ -1,0 +1,17 @@
+{
+    "name": "pedro/orm",
+    "autoload": {
+        "psr-4": {
+            "Pedro\\Orm\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "LyeZinho",
+            "email": "pedrokalebdej1@gmail.com"
+        }
+    ],
+    "require": {
+        "php-activerecord/php-activerecord": "^1.2"
+    }
+}
