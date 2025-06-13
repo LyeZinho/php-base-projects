@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    '6e60481d8c04e99474e2ba7b3658ab5a' => $vendorDir . '/php-activerecord/php-activerecord/ActiveRecord.php',
+    '3b088767a4da8214990f08f99da7a43e' => $vendorDir . '/softwarepunt/php-activerecord/ActiveRecord.php',
 );

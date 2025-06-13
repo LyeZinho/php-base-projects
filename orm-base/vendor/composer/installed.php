@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'pedro/orm',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => null,
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => '8f185ab48f77a97da35d16f0f347ab142ef59522',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,21 +11,29 @@
     ),
     'versions' => array(
         'pedro/orm' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => null,
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => '8f185ab48f77a97da35d16f0f347ab142ef59522',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
         'php-activerecord/php-activerecord' => array(
-            'pretty_version' => 'v1.2.0',
-            'version' => '1.2.0.0',
-            'reference' => 'e6d2dad090617336dee730190be0294c5f132c69',
+            'dev_requirement' => false,
+            'replaced' => array(
+                0 => '*',
+            ),
+        ),
+        'softwarepunt/php-activerecord' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => 'eeb2843072416b9d3cb627f5a9d879cdb26a8411',
             'type' => 'library',
-            'install_path' => __DIR__ . '/../php-activerecord/php-activerecord',
-            'aliases' => array(),
+            'install_path' => __DIR__ . '/../softwarepunt/php-activerecord',
+            'aliases' => array(
+                0 => '9999999-dev',
+            ),
             'dev_requirement' => false,
         ),
     ),

@@ -7,7 +7,7 @@ namespace Composer\Autoload;
 class ComposerStaticInitf7369ba51c7ab3d0c06a8752e56a1aa2
 {
     public static $files = array (
-        '6e60481d8c04e99474e2ba7b3658ab5a' => __DIR__ . '/..' . '/php-activerecord/php-activerecord/ActiveRecord.php',
+        '3b088767a4da8214990f08f99da7a43e' => __DIR__ . '/..' . '/softwarepunt/php-activerecord/ActiveRecord.php',
     );
 
     public static $prefixLengthsPsr4 = array (

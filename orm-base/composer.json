@@ -12,6 +12,7 @@
         }
     ],
     "require": {
-        "php-activerecord/php-activerecord": "^1.2"
+        "php-activerecord/php-activerecord": "*",
+        "softwarepunt/php-activerecord": "dev-master"
     }
 }

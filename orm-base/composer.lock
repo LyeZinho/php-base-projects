@@ -4,30 +4,37 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f73f85443e2f8462b85ba3fba7000bcf",
+    "content-hash": "9a721d960e7c1bf1dda13d5682a5ad3b",
     "packages": [
         {
-            "name": "php-activerecord/php-activerecord",
-            "version": "v1.2.0",
+            "name": "softwarepunt/php-activerecord",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/jpfuentes2/php-activerecord.git",
-                "reference": "e6d2dad090617336dee730190be0294c5f132c69"
+                "url": "https://github.com/SoftwarePunt/php-activerecord.git",
+                "reference": "eeb2843072416b9d3cb627f5a9d879cdb26a8411"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jpfuentes2/php-activerecord/zipball/e6d2dad090617336dee730190be0294c5f132c69",
-                "reference": "e6d2dad090617336dee730190be0294c5f132c69",
+                "url": "https://api.github.com/repos/SoftwarePunt/php-activerecord/zipball/eeb2843072416b9d3cb627f5a9d879cdb26a8411",
+                "reference": "eeb2843072416b9d3cb627f5a9d879cdb26a8411",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0"
+                "php": ">=7.2.0"
+            },
+            "replace": {
+                "php-activerecord/php-activerecord": "*"
             },
             "require-dev": {
                 "pear/log": "~1.12",
                 "pear/pear_exception": "1.0-beta1",
-                "phpunit/phpunit": "4.*"
+                "phpunit/phpunit": "^9.5"
             },
+            "suggest": {
+                "maximebf/debugbar": "This package can intergrate into the PHP Debugbar"
+            },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "files": [
@@ -45,16 +52,17 @@
                 "orm"
             ],
             "support": {
-                "issues": "https://github.com/jpfuentes2/php-activerecord/issues",
-                "source": "https://github.com/jpfuentes2/php-activerecord/tree/master"
+                "source": "https://github.com/SoftwarePunt/php-activerecord/tree/master"
             },
-            "time": "2017-06-11T22:05:37+00:00"
+            "time": "2024-07-11T10:23:33+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {},
+    "stability-flags": {
+        "softwarepunt/php-activerecord": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {},

@@ -21,7 +21,6 @@ $timeZoneAbbreviation = timezone_name_from_abbr($timeZoneOffset);
 $timeZoneAbbreviation = $timeZoneAbbreviation ?: 'UTC';
 $timeZoneAbbreviation = $timeZoneAbbreviation ?: 'GMT';
 
-
 echo "<h2>Date and Time Manipulation</h2>";
 echo "<p>Current Date: $currentDate</p>";
 echo "<p>Timestamp: $timestamp</p>";
@@ -36,5 +35,4 @@ echo "<p>Time Zone: $timeZone</p>";
 echo "<p>Time Zone List: " . implode(', ', $timeZoneList) . "</p>";
 echo "<p>Time Zone Offset: $timeZoneOffset seconds</p>";
 echo "<p>Time Zone Abbreviation: $timeZoneAbbreviation</p>";
-
 ?>

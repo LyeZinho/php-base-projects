@@ -1,0 +1,25 @@
+{
+    "name": "softwarepunt/php-activerecord",
+    "type": "library",
+    "description": "php-activerecord is an open source ORM library based on the ActiveRecord pattern.",
+    "keywords": ["activerecord", "orm"],
+    "homepage": "http://www.phpactiverecord.org/",
+    "license": "MIT",
+    "require": {
+      "php": ">=7.2.0"
+    },
+    "suggest": {
+      "maximebf/debugbar": "This package can intergrate into the PHP Debugbar"
+    },
+    "replace": {
+      "php-activerecord/php-activerecord": "*"
+    },
+    "require-dev": {
+        "pear/pear_exception": "1.0-beta1",
+        "pear/log": "~1.12",
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "files": [ "ActiveRecord.php" ]
+    }
+}
